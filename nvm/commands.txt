@@ -1,0 +1,9 @@
+nvm install 20 -> instala a versão especificada
+nvm install --lts -> instala a versão lts
+nvm list -> lista todas as versões instaladas
+nvm use 18-> altera a versao ativa do
+nvm alias default 18 -> define versão padrão
+
+criar o .nvmrc - com a versão desejada e nvm use para ativar a versão
+node -v > .nvmrc -> salva a versão apropriada para o projeto
+adicionado "engines" no package.json para definir a versão do projeto
